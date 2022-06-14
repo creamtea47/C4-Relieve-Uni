@@ -11,6 +11,7 @@ app.$mount()
 // #endif
 
 // #ifdef VUE3
+import 'animate.css'
 import { createSSRApp } from 'vue'
 export function createApp() {
   const app = createSSRApp(App)
