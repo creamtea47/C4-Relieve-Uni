@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64207ffd-11fe-4586-9e9c-9405443437ac" name="变更" comment="" />
+    <list default="true" id="64207ffd-11fe-4586-9e9c-9405443437ac" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uni_modules/relieve-floatactionbutton/components/relieve-floatactionbutton/relieve-floatactionbutton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/uni_modules/relieve-floatactionbutton/components/relieve-floatactionbutton/relieve-floatactionbutton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uni_modules/relieve-navigationbar/components/relieve-navigationbar/relieve-navigationbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/uni_modules/relieve-navigationbar/components/relieve-navigationbar/relieve-navigationbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-config-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-config-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/index/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/index/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AWlhSsGGhLcbtPZuizVbI0YiB4" />
   <component name="ProjectViewState">
@@ -29,8 +42,18 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
+      "HTML"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$APPLICATION_CONFIG_DIR$/scratches" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -41,6 +64,8 @@
       <updated>1655133341283</updated>
       <workItem from="1655133342874" duration="20000" />
       <workItem from="1655133371343" duration="800000" />
+      <workItem from="1655174009230" duration="106000" />
+      <workItem from="1655191039468" duration="879000" />
     </task>
     <servers />
   </component>

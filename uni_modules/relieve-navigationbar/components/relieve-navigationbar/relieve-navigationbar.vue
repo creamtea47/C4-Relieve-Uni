@@ -1,18 +1,54 @@
 <template>
-	<view class="navigation-bar animate__animated animate__bounce" style="padding-top: 2rem;">
-		<image class="border" src="../../../../static/navigationbar_person.png"></image>
-		<text>释怀</text>
-		<image src="../../../../static/navigationbar_address.png"></image>
+	<view class="navigation-bar animate__animated animate__pulse" style="padding-top: 2rem;">
+		<image @tap="onClickLeft" :style="leftIconStyle" :src="leftIcon"></image>
+		<text>{{title}}</text>
+		<image @click="onClickRight" :style="rightIconStyle" :src="rightIcon"></image>
 	</view>
 </template>
 <script>
+	export default {
+		emits:['clickLeft', 'clickRight'],
+		props: {
+			leftIcon: {
+				type: String,
+				value: ''
+			},
+			leftIconStyle:{
+				type:String,
+				value:''
+			},
+			rightIconStyle:{
+				type:String,
+				value:''
+			},
+			rightIcon: {
+				type: String,
+				value: ''
+			},
+			title:{
+				type:String,
+				value:""
+			}
+		},
+		methods:{
+				onClickLeft() {
+					this.$emit("clickLeft");
+				},
+				onClickRight() {
+					this.$emit("clickRight");
+				},
+		}
+	}
 </script>
-<style>
+<style scoped>
 	/* tabbar */
-	*{
+	* {
 		/* border:1px solid red */
 	}
+
 	.navigation-bar {
+		position: fixed;
+		z-index: 100;
 		display: block;
 		box-sizing: border-box;
 		width: 100%;
@@ -47,8 +83,9 @@
 		letter-spacing: 0.2px;
 		color: #000000;
 	}
-	.border{
+
+/* 	.border {
 		border: 2px solid #000000;
 		border-radius: 100%;
-	}
+	} */
 </style>
